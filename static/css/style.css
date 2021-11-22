@@ -1,0 +1,105 @@
+.heder {
+    height: 100vh !important;
+}
+
+.bg-footer {
+    background: #023 !important;
+    color: white;
+}
+
+.infoku {
+    margin-top: 300px;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+  outline: none !important;
+}
+
+.home-enter-active{
+    transition:opacity 1s;
+}
+
+.home-enter {
+  opacity: 0;
+}
+
+.error {
+  background: black !important;
+  text-align: center !important;
+}
+
+td, th {
+  border: 1px solid #dddddd !important;
+  text-align: left !important;
+  padding: 8px !important;
+}
+
+.nuxt-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
+  border-left: 4px solid silver !important;
+  padding-left: 0.8rem !important;
+}
+
+.nuxt-content h2 {
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  border-left: 4px solid silver !important;
+  padding-left: 0.8rem !important;
+}
+
+.nuxt-content a {
+  color: blue !important;
+  text-decoration: none !important;
+}
+
+.nuxt-content p {
+  display: block;
+  margin-top: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.nuxt-content ul {
+  list-style-type: square;
+  margin-left: 2rem;
+}
+
+.nuxt-content ol {
+  list-style-type: lower-alpha;
+  margin-left: 2rem;
+}
+
+.nuxt-content img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nuxt-content-highlight {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.lihat {
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 2px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.lihat:hover {
+  border: 1px solid black;
+  color: black;
+}
